@@ -1,18 +1,18 @@
 
-urse designed for the EBI In Silico Systems Biology 2016 course, metabolic networks modelling with COBRApy.
+Course designed for the EBI In Silico Systems Biology 2017 course, metabolic networks modelling with COBRApy.
 ===================================
 
 
 ## Course Aims and Overview
 
-This course teaches the basics of flux balance analysis to model metabolic networks at steady state and simulate the models in python. It integrates explanations and exercises, building the necessary knowledge to enable participants to build and simulate their own genome-scale model (GEM) of yeast metabolism.
+This course teaches the basics of flux balance analysis to model metabolic networks at steady state and simulate the models in python. It integrates explanations and exercises, building the necessary knowledge to enable participants to build, edit and simulate their own genome-scale model (GEM) of metabolism.
 
 The 'EBI_COBRApy_exercises.ipnb' is the main tutorial, which consists of explanations and exercises. Solutions are found in 'EBI_COBRApy_solutions.ipnb'.
 
 
 ## Audience
 
-This course is aimed at people with basic to intermediate knowledge of python and knowledge of basic linear algebra (array manipulation).
+This course is aimed at people with basic knowledge of python and basic knowledge of linear algebra.
 
 
 ## Required tools
@@ -46,7 +46,8 @@ Python2.7 (We recommend using the [Anaconda distribution](https://www.continuum.
 	* numpy library
 	* COBRApy library
 		* Importing a model
-		* Editing model reactions, concentrations, conditions, objective function, etc
+		* Editing model reactions, constraints, objective function, etc.
+		* Making flux balance analysis simulations
 	* Pandas library for data analysis
 
 
